@@ -1,0 +1,22 @@
+.responsive-preview {
+    position: relative;
+  }
+  
+  .responsive-preview.desktop .preview-content {
+    width: 100%;
+  }
+  
+  .responsive-preview.tablet .preview-content {
+    width: 768px;
+  }
+  
+  .responsive-preview.mobile .preview-content {
+    width: 375px;
+  }
+  
+  .preview-content {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
